@@ -59,3 +59,16 @@ export default function HomePage() {
     </div>
   );
 }
+
+import Header from "@/components/layout/Header";
+
+export default function HomePage() {
+  return (
+    <>
+      <Header />
+      <main className="p-8">
+        <h1 className="text-3xl font-bold">Welcome to Home</h1>
+      </main>
+    </>
+  );
+}
